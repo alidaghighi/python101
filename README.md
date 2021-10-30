@@ -1221,7 +1221,7 @@ print(counter.__secretCount) # We're gonna get an error for this line
 ### This is it for now!
 
 I'm gonna end the file here. <br />
-If you need someone to ask for help, you can find me [Here](daghighi1376@gmail.com) <br />
+If you need someone to ask for help, you can find me [Here](mailto:daghighi1376@gmail.com) <br />
 or just use google it!<br />
 <br />
 <b> Happy coding! </b>
