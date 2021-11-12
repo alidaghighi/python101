@@ -525,6 +525,52 @@ else:
     2 == 2
     2 == 2
     
+## match - case
+
+
+```python
+# in the c/c++ we use switch case
+# The switch case in c/c++ is would be like this
+switch (variable to be evaluated):
+{
+     case value1 : //statement 1
+                   break;
+ 
+     case value2 : //statement 2
+                   break;
+ 
+     case value_n : //statement n
+                    break;
+ 
+     default:  //default statement
+}
+```
+
+
+```python
+# In Python 3.10 (2021) introduced the match-case statement
+# Which provides a first-class implementation of a "switch" for Python
+# The syntax looks something like this
+match variable_name:
+            case ‘pattern1’ : //statement1
+            case ‘pattern2’ : //statement2
+            …            
+            case ‘pattern n’ : //statement n
+```
+
+
+```python
+# Let's see an example
+list1 = ['a', 'b', 'c', 'd']
+ 
+match list1:
+    case ['e','f'] : print("e,f present")
+    case ['a','b','c','d'] : print("a,b,c,d present")
+# Since I'm using the Python3.8 I can't show you the output
+# But the output will be:
+# a,b,c,d present
+```
+
 
 ## while
 
