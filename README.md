@@ -530,7 +530,7 @@ else:
 
 ```python
 # in the c/c++ we use switch case
-# The switch case in c/c++ is would be like this
+# The switch case statement in a C/C++ program would look something like this
 switch (variable to be evaluated):
 {
      case value1 : //statement 1
